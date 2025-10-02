@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6315970340051895783}
   - component: {fileID: 5763931276649334533}
   - component: {fileID: 9194419602166439040}
-  - component: {fileID: 6637683137778104204}
+  - component: {fileID: 5049118916954643827}
   m_Layer: 0
   m_Name: abandond train
   m_TagString: Untagged
@@ -59,6 +59,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -87,8 +90,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &6637683137778104204
-MeshCollider:
+--- !u!65 &5049118916954643827
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -105,7 +108,6 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -6178645028077488059, guid: 9f246ab041f11af498454df273e6c008, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 17.462826, y: 5.111012, z: 4.6416874}
+  m_Center: {x: -0.018400192, y: -0.059464693, z: 0.010913849}

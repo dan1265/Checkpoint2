@@ -16,7 +16,12 @@ public class Movement : MonoBehaviour
     [SerializeField] float jumpHeight = 3.5f;
     bool jump;
 
+    private void Start()
+    {
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
 
+    }
 
     private void Update()
     {
